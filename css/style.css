@@ -1,0 +1,16 @@
+body {
+    background-color: blue;
+    color: black;
+}
+
+.box {
+    background-color: darkgray;
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+}
