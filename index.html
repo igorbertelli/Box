@@ -12,12 +12,20 @@
         <button type="button">
             Reset
         </button>
-        <button type="button">
+        <button type="button" onclick=newBlock()>
             Add
         </button>
     </header>
     <main>
         <div class="box"></div>
     </main>
+    <script>
+        function newBlock() {
+            var box = document.createElement('div')
+            box.className = 'box'
+            var element = document.getElementsByTagName('main')[0]
+            element.appendChild(box)
+        }
+    </script>
 </body>
 </html>
